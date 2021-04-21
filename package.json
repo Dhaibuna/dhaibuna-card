@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/Dhaibuna/dhaibuna-card/issues"
   },
-  "homepage": "https://github.com/Dhaibuna/dhaibuna-card#readme"
+  "homepage": "https://github.com/Dhaibuna/dhaibuna-card#readme",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "cfonts": "^2.9.1",
+    "chalk": "^2.4.2",
+    "gradient-string": "^1.2.0",
+    "terminal-image": "^1.2.1"
+  }
 }
