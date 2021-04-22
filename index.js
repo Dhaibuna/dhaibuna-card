@@ -19,9 +19,10 @@ const khaki = chalk.keyword('khaki');
 const data = {
     name: chalk.white("Natascha Gritte"),
     alias: chalk.cyan("Nana"),
-    description: chalk.white("Studied ") + chalk.keyword("firebrick")("Chinese ") + chalk.white("Language and Literature") + '. ' + chalk.white("Currently in retraining as a ") + chalk.bold(gradient.rainbow("Web dev junior"))+ '.',
+    description: chalk.white("Studied ") + chalk.keyword("firebrick")("Chinese ") + chalk.white("Language and Literature") + '. ' + chalk.white("Currently in retraining as a ") + chalk.bold(gradient.rainbow("Web dev junior")) + '.',
     github: chalk.gray("https://github.com/Dhaibuna/ ") + khaki("Dhaibuna"),
     linkedIn: chalk.gray("www.linkedin.com/in/ngritte/ ") + khaki("Natascha Gritte"),
+    comingSoon: gradient.rainbow("I've a certain talent to waste my time on really useful and pertinent stuff ... that's why, one day, you will get an ASCII art instead of this sentence. Voilà."),
 
     labelGitHub: khaki("GitHub:"),
     labelLinkedIn: khaki("LinkedIn:"),
@@ -36,7 +37,9 @@ log(
                 `${data.description}`,
                 newLine,
                 `${data.labelGitHub} ${data.github}`,
-                `${data.labelLinkedIn} ${data.linkedIn}`
+                `${data.labelLinkedIn} ${data.linkedIn}`,
+                newLine,
+                `${data.comingSoon}`,
             ].join(newLine),
             {
                 padding: 1,
