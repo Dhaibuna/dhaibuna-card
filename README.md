@@ -21,6 +21,7 @@ CLI-card realised to allow Becodians **JEPSEN 4.21** at **_Becode_** to discover
 
 ### How to use it ? 
 
+1. `npm i dhaibuna-card` or  `npx i dhaibuna-card`
 
 ### PS : Yes, I like gradients... 
 
